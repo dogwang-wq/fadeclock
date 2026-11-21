@@ -36,6 +36,8 @@ The download is free: the timer, the end time, breaks and YouTube music all work
 
 **Fadeclock Pro** is $12, paid once. It adds start links for HTML slides and web pages (below). Full refund within 14 days. Payments are handled by Paddle.
 
+**Black Friday 2026:** Fadeclock Pro is $6 instead of $12 (50% off) with the code `BF2026`, through November 30, 2026 (Pacific time). Click Buy Pro on [fadeclock.app](https://fadeclock.app/#price), choose Add discount at checkout, and enter the code.
+
 ## Start a timer from a slide (Pro)
 
 If your slides are HTML (reveal.js, Slidev, Marp, or a plain web page), a normal link can start the timer:
