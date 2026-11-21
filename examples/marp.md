@@ -2,7 +2,7 @@
 marp: true
 ---
 
-<!-- A Marp slide. Not tested in Marp yet. It is the same link as plain.html. -->
+<!-- A Marp slide. Tested in Safari with HTML exported by Marp CLI 4.5. It is the same link as plain.html. -->
 <!-- Present the exported HTML in a browser. -->
 
 # Draft your exit ticket

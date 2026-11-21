@@ -26,7 +26,7 @@ This repository holds the app's public page on GitHub, examples for the slide st
 ## Before you download
 
 - Fadeclock is **not notarized by Apple** yet. macOS blocks it the first time you open it, and you need to allow it in System Settings → Privacy & Security → Open Anyway. The steps are on [fadeclock.app](https://fadeclock.app). On a Mac managed by a school or a company, that option may be turned off.
-- It has been tested over **Keynote** in presentation mode. PowerPoint and Google Slides have not been tested yet.
+- It has been tested in **Keynote** presentation mode and in a **PowerPoint** slideshow: the timer stays on top of the slides. Google Slides has not been tested yet.
 - It is built for Apple silicon and Intel Macs, but it has not been run on an Intel Mac yet.
 - No account, no analytics in the app. YouTube music connects to YouTube, and YouTube may play ads.
 
@@ -34,19 +34,25 @@ This repository holds the app's public page on GitHub, examples for the slide st
 
 The download is free: the timer, the end time, breaks and YouTube music all work without paying.
 
-**Fadeclock Pro** is $12, paid once. It adds start links for HTML slides and web pages (below). Full refund within 14 days. Payments are handled by Paddle.
+**Fadeclock Pro** is $12, paid once. It lets you play music from a folder on your Mac and add start buttons to your slides (see below). Full refund within 14 days. Payments are handled by Paddle.
 
 **Black Friday 2026:** Fadeclock Pro is $6 instead of $12 (50% off) with the code `BF2026`, through November 30, 2026 (Pacific time). Click Buy Pro on [fadeclock.app](https://fadeclock.app/#price), choose Add discount at checkout, and enter the code.
 
 ## Start a timer from a slide (Pro)
 
-If your slides are HTML (reveal.js, Slidev, Marp, or a plain web page), a normal link can start the timer:
+A link on a slide can start the timer.
+
+**Keynote and PowerPoint.** Put a link such as `fadeclock://start?min=15` on a shape in a slide. Clicking the shape during the slideshow starts a 15-minute timer. This has been tested with Keynote 14 and PowerPoint 16 on a Mac, with the link on a shape (a link on text has not been tested). Keynote hides the slideshow for a second or two while the timer starts. PowerPoint shows a security notice first, and you click through it.
+
+**HTML slides.** If your slides are HTML (reveal.js, Slidev, Marp, or a plain web page), a normal link can start the timer:
 
 ```html
 <a href="fadeclock://start?min=15">▶ Start 15-minute activity</a>
 ```
 
-Clicking it starts a 15-minute timer. Your browser may ask once before it opens Fadeclock.
+Clicking it starts a 15-minute timer. Safari asks before it opens Fadeclock, and you click Allow.
+
+![A start link on a Slidev slide in Safari: Safari asks, you click Allow, and the timer starts](img/fadeclock-slidev-start-link.gif)
 
 | Link | What it does |
 |---|---|
@@ -57,12 +63,12 @@ Clicking it starts a 15-minute timer. Your browser may ask once before it opens 
 
 Copy-and-paste examples are in [`examples/`](examples/):
 
-- [`plain.html`](examples/plain.html): a single slide as a plain web page. This is the setup that has been tested (Safari, full screen).
+- [`plain.html`](examples/plain.html): a single slide as a plain web page.
 - [`reveal.html`](examples/reveal.html): a reveal.js slide.
 - [`slidev.md`](examples/slidev.md): a Slidev slide.
 - [`marp.md`](examples/marp.md): a Marp slide.
 
-The reveal.js, Slidev and Marp examples use the same link, but they have not been tested in each tool yet. If one does not work for you, please [open an issue](../../issues) with the tool and browser you use.
+All four have been tested in Safari 26 on macOS (reveal.js 6.0, Slidev 53, and HTML exported by Marp CLI 4.5). Other browsers have not been tested. If one does not work for you, please [open an issue](../../issues) with the tool and browser you use.
 
 Copy and change these examples however you like.
 

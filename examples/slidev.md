@@ -1,5 +1,5 @@
 ---
-# A Slidev slide. Not tested in Slidev yet. It is the same link as plain.html.
+# A Slidev slide. Tested with Slidev 53 in Safari. It is the same link as plain.html.
 ---
 
 # Draft your exit ticket
