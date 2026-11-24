@@ -6,7 +6,7 @@ A Mac timer for people who teach or present with slides. It floats in a corner a
 
 *The real app, captured on a Mac over a full-screen sample slide (a web page in Safari).*
 
-**Download and details: [fadeclock.app](https://fadeclock.app)** (free, macOS 13 or later)
+**Download and details: [fadeclock.app](https://fadeclock.app/go/github)** (free, macOS 13 or later)
 
 This repository holds the app's public page on GitHub, examples for the slide start links, and the issue tracker. The app itself is closed source.
 
@@ -25,7 +25,7 @@ This repository holds the app's public page on GitHub, examples for the slide st
 
 ## Before you download
 
-- Fadeclock is **not notarized by Apple** yet. macOS blocks it the first time you open it, and you need to allow it in System Settings → Privacy & Security → Open Anyway. The steps are on [fadeclock.app](https://fadeclock.app). On a Mac managed by a school or a company, that option may be turned off.
+- Fadeclock is **not notarized by Apple** yet. macOS blocks it the first time you open it, and you need to allow it in System Settings → Privacy & Security → Open Anyway. The steps are on [fadeclock.app](https://fadeclock.app/go/github). On a Mac managed by a school or a company, that option may be turned off.
 - It has been tested in **Keynote** presentation mode and in a **PowerPoint** slideshow: the timer stays on top of the slides. Google Slides has not been tested yet.
 - It is built for Apple silicon and Intel Macs, but it has not been run on an Intel Mac yet.
 - No account, no analytics in the app. YouTube music connects to YouTube, and YouTube may play ads.
@@ -36,7 +36,7 @@ The download is free: the timer, the end time, breaks and YouTube music all work
 
 **Fadeclock Pro** is $12, paid once. It lets you play music from a folder on your Mac and add start buttons to your slides (see below). Full refund within 14 days. Payments are handled by Paddle.
 
-**Black Friday 2026:** Fadeclock Pro is $6 instead of $12 (50% off) with the code `BF2026`, through November 30, 2026 (Pacific time). Click Buy Pro on [fadeclock.app](https://fadeclock.app/#price), choose Add discount at checkout, and enter the code.
+**Black Friday 2026:** Fadeclock Pro is $6 instead of $12 (50% off) with the code `BF2026`, through November 30, 2026 (Pacific time). Click Buy Pro on [fadeclock.app](https://fadeclock.app/go/github#price). Buy Pro adds the code for you.
 
 ## Start a timer from a slide (Pro)
 
